@@ -1,0 +1,82 @@
+//   ______   ______   __       ______   ______   ______
+//  /\  ___\ /\  __ \ /\ \     /\  __ \ /\  == \ /\  ___\
+//  \ \ \____\ \ \/\ \\ \ \____\ \ \/\ \\ \  __< \ \___  \
+//   \ \_____\\ \_____\\ \_____\\ \_____\\ \_\ \_\\/\_____\
+//    \/_____/ \/_____/ \/_____/ \/_____/ \/_/ /_/ \/_____/
+//
+$color-screamin-green: #5DFC71;
+$color-pampas: #ebe9e7;
+$color-white: #fff;
+$color-star-dust: #8f8d8c;
+$color-white-smoke: #f5f3f1;
+$color-black: #000;
+$color-light-gray: #ada9a8;
+$color-radical-red: #ff4060;
+$color-silver: #c2c0be;
+$color-cloud-burst: #31414e;
+$color-ufo-green: #27ee76;
+$color-battleship-gray: #858382;
+
+// video teaser colors
+$color-blue-zodiac: #16284a;
+$color-rhino: #293d66;
+$color-tropical-blue: #b6c6e6;
+$color-waikawa-gray: #5c7099;
+
+$accent-color: $color-screamin-green;
+$dark-color: $color-blue-zodiac;
+$alt-color: $color-pampas;
+
+//   __   __ ______   ______   ______
+//  /\ \ / //\  __ \ /\  == \ /\  ___\
+//  \ \ \'/ \ \  __ \\ \  __< \ \___  \
+//   \ \__|  \ \_\ \_\\ \_\ \_\\/\_____\
+//    \/_/    \/_/\/_/ \/_/ /_/ \/_____/
+//
+$bg-color: $color-white;
+$link-color: $dark-color;
+$link-color-hover: $color-white-smoke;
+$background-teaser: $color-white-smoke;
+
+$border-color: $color-pampas;
+$breaking-color: $color-radical-red;
+$backgroundfill-color: $color-white-smoke;
+
+$text-font: formadjrtext, Verdana, Arial, sans-serif;
+$micro-font: formadjrmicro, Verdana, Arial, sans-serif;
+$serif-font: CharterITC, TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;
+
+//   __       ______   __  __   ______   __  __   ______
+//  /\ \     /\  __ \ /\ \_\ \ /\  __ \ /\ \/\ \ /\__  _\
+//  \ \ \____\ \  __ \\ \____ \\ \ \/\ \\ \ \_\ \\/_/\ \/
+//   \ \_____\\ \_\ \_\\/\_____\\ \_____\\ \_____\  \ \_\
+//    \/_____/ \/_/\/_/ \/_____/ \/_____/ \/_____/   \/_/
+//
+$breakpoints: (small: 0, medium: 768px, large: 1024px, xlarge: 1200px, xxlarge: 1440px);
+$breakpoint-classes: (small medium large);
+
+$header-height: 150px;
+
+$grid-row-width: map-get($breakpoints, xxlarge);
+$grid-column-count: 24;
+$grid-column-gutter: 20px;
+$grid-column-align-edge: true;
+$block-grid-max: 8;
+$global-flexbox: true;
+
+$section-margin: 1.8em;
+$teaser-margin: .6em;
+$teaser-padding: .6em;
+$teaser-padding-mobile: .3em;
+$header-top-margin--large: 4.3em;
+$header-top-margin--medium: 4.3em;
+$header-top-margin--small: 3.5em;
+$paragraph-margin: 40px;
+$paragraph-margin--small: $paragraph-margin/2;
+
+$subtitle-width: 83%;
+
+$rounded-corners-radius: 8px;
+$teaser-rounded-corners-radius: 12px;
+
+$overlay-easing: cubic-bezier(0,1,.33,1);

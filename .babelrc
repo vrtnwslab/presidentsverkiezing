@@ -1,0 +1,22 @@
+{
+  plugins: [
+    'transform-decorators-legacy',
+    'transform-object-rest-spread'
+  ],
+  "presets": [
+    ["env", {
+      "modules": false
+    }],
+    "react"
+  ],
+  "env": {
+      "development": {
+          "presets": [
+            "react-hmre"
+          ],
+          plugins: [
+            'transform-runtime',
+          ],
+      }
+  }
+}

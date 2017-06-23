@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'formadjrmicro';
+    src: url('../assets/fonts/formadjrmicro-bolditalic-webfont.eot');
+    src: url('../assets/fonts/formadjrmicro-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/formadjrmicro-bolditalic-webfont.woff') format('woff'),
+         url('../assets/fonts/formadjrmicro-bolditalic-webfont.ttf') format('truetype'),
+         url('../assets/fonts/formadjrmicro-bolditalic-webfont.svg#formadjrmicrobold_italic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'formadjrmicro';
+    src: url('../assets/fonts/formadjrmicro-bold-webfont.eot');
+    src: url('../assets/fonts/formadjrmicro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/formadjrmicro-bold-webfont.woff') format('woff'),
+         url('../assets/fonts/formadjrmicro-bold-webfont.ttf') format('truetype'),
+         url('../assets/fonts/formadjrmicro-bold-webfont.svg#formadjrmicrobold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'formadjrmicro';
+    src: url('../assets/fonts/formadjrmicro-regular-webfont.eot');
+    src: url('../assets/fonts/formadjrmicro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/formadjrmicro-regular-webfont.woff') format('woff'),
+         url('../assets/fonts/formadjrmicro-regular-webfont.ttf') format('truetype'),
+         url('../assets/fonts/formadjrmicro-regular-webfont.svg#formadjrmicroregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'formadjrtext';
+    src: url('../assets/fonts/formadjrtext-bolditalic-webfont.eot');
+    src: url('../assets/fonts/formadjrtext-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/formadjrtext-bolditalic-webfont.woff') format('woff'),
+         url('../assets/fonts/formadjrtext-bolditalic-webfont.ttf') format('truetype'),
+         url('../assets/fonts/formadjrtext-bolditalic-webfont.svg#formadjrtextbold_italic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'formadjrtext';
+    src: url('../assets/fonts/formadjrtext-bold-webfont.eot');
+    src: url('../assets/fonts/formadjrtext-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/formadjrtext-bold-webfont.woff') format('woff'),
+         url('../assets/fonts/formadjrtext-bold-webfont.ttf') format('truetype'),
+         url('../assets/fonts/formadjrtext-bold-webfont.svg#formadjrtextbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'formadjrtext';
+    src: url('../assets/fonts/formadjrtext-italic-webfont.eot');
+    src: url('../assets/fonts/formadjrtext-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/formadjrtext-italic-webfont.woff') format('woff'),
+         url('../assets/fonts/formadjrtext-italic-webfont.ttf') format('truetype'),
+         url('../assets/fonts/formadjrtext-italic-webfont.svg#formadjrtextitalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'formadjrtext';
+    src: url('../assets/fonts/formadjrtext-mediumitalic-webfont.eot');
+    src: url('../assets/fonts/formadjrtext-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/formadjrtext-mediumitalic-webfont.woff') format('woff'),
+         url('../assets/fonts/formadjrtext-mediumitalic-webfont.ttf') format('truetype'),
+         url('../assets/fonts/formadjrtext-mediumitalic-webfont.svg#forma_djr_textmedium_italic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'formadjrtext';
+    src: url('../assets/fonts/formadjrtext-medium-webfont.eot');
+    src: url('../assets/fonts/formadjrtext-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/formadjrtext-medium-webfont.woff') format('woff'),
+         url('../assets/fonts/formadjrtext-medium-webfont.ttf') format('truetype'),
+         url('../assets/fonts/formadjrtext-medium-webfont.svg#forma_djr_textmedium') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'formadjrtext';
+    src: url('../assets/fonts/formadjrtext-regular-webfont.eot');
+    src: url('../assets/fonts/formadjrtext-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/formadjrtext-regular-webfont.woff') format('woff'),
+         url('../assets/fonts/formadjrtext-regular-webfont.ttf') format('truetype'),
+         url('../assets/fonts/formadjrtext-regular-webfont.svg#formadjrtextregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'CharterITC';
+  src: url('../assets/fonts/CharterITCBlackItalic.eot'); // IE9 Compat Modes
+  src: url('../assets/fonts/CharterITCBlackItalic.eot?#iefix') format('embedded-opentype'), // IE6-IE8
+       url('../assets/fonts/CharterITCBlackItalic.woff') format('woff'), // Modern Browsers
+       url('../assets/fonts/CharterITCBlackItalic.ttf')  format('truetype'), // Safari, Android, iOS
+       url('../assets/fonts/CharterITCBlackItalic.svg#140d60db2b75d6e38d6f90e1466908b2') format('svg'); // Legacy iOS
+  font-style:   italic;
+  font-weight:  bold;
+}
