@@ -1,7 +1,7 @@
 # workflow
 
 ## clone project
-* `git clone -o boilerplate https://github.com/johanmaes/boilerplate.git new_proj`
+* `git clone -o boilerplate https://github.com/vrtnwslab/boilerplate.git new_proj`
 
 ## add origin
 * `git remote add origin https://github.com/user/new_proj.git`
