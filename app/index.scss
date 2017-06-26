@@ -1,0 +1,8 @@
+@import "./sass/vrtnws/style";
+// uncomment for new style
+@import "./sass/deredactie/style";
+@import "./sass/app/style";
+
+.loading {
+    @include loading;
+}
