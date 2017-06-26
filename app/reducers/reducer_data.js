@@ -1,5 +1,5 @@
 export default function reducer (
-  state = [], action) {
+  state = {}, action) {
   switch (action.type) {
     case 'FETCH_FILE':
       return action.payload

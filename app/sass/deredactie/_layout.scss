@@ -1,37 +1,55 @@
 html {
-  background: white;
+  background: $nws-brand-white;
 }
 body {
   max-width: 980px;
   margin: auto;
+  padding: 15px;
   background: $dr-bg;
-  padding: 1rem;
   color: white;
+}
+
+h3 {
+  font-family: dincond-bold;
 }
 
 p {
   font-family: roboto;
-  font-size: 1rem;
+  font-size: 14px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+text {
   font-family: dincond-bold;
 }
 
-.header__title {
-  margin-bottom: 1rem;
+button {
+  font-family: roboto;
+  font-size: 16px;
+  line-height: 22px;
+  i {
+    margin-right: 6px;
+    color: $dr-green;
+  }
 }
 
-.header__title:after {
+.hintText {
+  color: white;
+  i {
+    margin-right: 6px;
+    color: $dr-green;
+  }
+}
+
+.app__title {
+  font-family: dincond-bold;
+  letter-spacing: 1px;
+}
+
+.app__title:after {
   background: $dr-green;
   content: " ";
   display: block;
-  height: 0.5rem;
-  margin: 0.5rem 0 0 0;
-  width: 2rem;
+  height: 8px;
+  margin: 5px 0 0 0;
+  width: 40px;
 }

@@ -44,3 +44,13 @@ export const fetchFile = (data) => ({
   payload: data,
   type: 'FETCH_FILE'
 })
+
+export const setDepartement = (insee) => ({
+  payload: insee,
+  type: 'SET_DEPARTEMENT'
+})
+
+export const setRound = (round) => ({
+  payload: round,
+  type: 'SET_ROUND'
+})

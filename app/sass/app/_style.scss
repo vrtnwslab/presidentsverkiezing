@@ -1,7 +1,86 @@
-@import './example';
-@import './listItem';
-@import './list';
+#app__main {
 
-.img--round {
-  border-radius: 50%;
+  header {
+    @include flex-grid-row;
+
+    h2 {
+      @include flex-grid-column(24);
+    }
+  }
+
+  section {
+    @include flex-grid-row(nest);
+    .app__nav {
+      @include flex-grid-column(24);
+      @include flex-grid-row;
+
+      .nav__reset {
+        @include flex-grid-column(8);
+      }
+
+      .nav__autocomplete {
+        @include flex-grid-column(12);
+      }
+
+      .nav__round {
+        @include flex-grid-column(4);
+      }
+    }
+    .app__map {
+      @include flex-grid-column(12);
+    }
+    .app__chart {
+      @include flex-grid-column(12);
+    }
+  }
+}
+
+#app__main {
+
+  .app__nav {
+    margin-top: 16px;
+    align-items: baseline;
+  }
+
+  .nav__reset {
+    hr {
+      border-bottom: 1px solid rgb(224, 224, 224);
+      border-top: none rgb(224, 224, 224);
+      border-left: none rgb(224, 224, 224);
+      border-right: none rgb(224, 224, 224);
+      margin: 0;
+      margin-top: 2px;
+    }
+  }
+}
+
+button {
+  padding: 0;
+  color: white;
+}
+
+path:hover {
+  cursor: pointer;
+}
+
+input {
+  color: white !important;
+}
+
+.nav__round {
+  label {
+    color: white !important;
+  }
+}
+#app__main > section > div.app__nav > div.nav__round > div > div:nth-child(3) {
+  margin-top: 0px !important;
+}
+
+#app__main > section > div.app__nav > div.nav__round > div > div:nth-child(3) > div:nth-child(1) > button {
+  margin-top: 14px !important;
+  padding-right: 0px !important;
+}
+
+#app__main > section > div.app__nav > div.nav__round > div > div:nth-child(3) > div:nth-child(1) > button > div > svg {
+  fill: $dr-green !important;
 }

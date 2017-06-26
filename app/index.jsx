@@ -6,6 +6,8 @@ import thunk from 'redux-thunk'
 import promise from 'redux-promise-middleware'
 import reducer from 'reducers'
 
+import injectTapEventPlugin from 'react-tap-event-plugin'
+
 import Data from 'containers/data/data'
 import './index.scss'
 
@@ -24,6 +26,8 @@ const store = createStore(reducer, {}, compose(
   applyMiddleware(...middlewares),
   window.devToolsExtension ? window.devToolsExtension() : (value) => value
 ))
+
+injectTapEventPlugin()
 
 ReactDOM.render(
   <Provider store={store}>
