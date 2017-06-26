@@ -1,0 +1,13 @@
+.svg-container {
+  height: 0;
+  width: 100%;
+  position: relative;
+  svg {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
+
+

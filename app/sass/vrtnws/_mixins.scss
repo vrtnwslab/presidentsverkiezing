@@ -1,0 +1,44 @@
+@mixin loading($size: 20px, $color: $color-screamin-green) {
+    display: inline-block;
+
+    width: $size;
+    height: $size;
+
+    animation: 2s spin infinite;
+
+    border-radius: 50% 0 50% 50%;
+    background: $color;
+
+    @keyframes spin {
+        0% {
+            border-radius: 50% 0 50% 50%;
+        }
+        19% {
+            border-radius: 50% 0 50% 50%;
+        }
+        20% {
+            border-radius: 50%;
+        }
+        30% {
+            border-radius: 50% 50% 0 50%;
+        }
+        40% {
+            border-radius: 50%;
+        }
+        50% {
+            border-radius: 50% 50% 50% 0;
+        }
+        60% {
+            border-radius: 50%;
+        }
+        70% {
+            border-radius: 0 50% 50% 50%;
+        }
+        80% {
+            border-radius: 50%;
+        }
+        90% {
+            border-radius: 50% 0 50% 50%;
+        }
+    }
+}

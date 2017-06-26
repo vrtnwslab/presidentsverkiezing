@@ -1,0 +1,12 @@
+@import "~foundation-sites/scss/foundation";
+@import 'settings';
+
+@include foundation-flex-classes;
+@include foundation-flex-grid;
+@include foundation-visibility-classes;
+
+@import 'reset';
+@import 'fonts';
+@import 'mixins';
+@import 'colors/colors';
+@import 'layout';

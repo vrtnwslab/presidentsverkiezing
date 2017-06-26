@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    text-size-adjust: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font: 21px/1.2 $text-font;
+
+    margin: 0;
+
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+blockquote,
+figure,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+main,
+li {
+    display: block;
+}
+
+strong {
+    font-weight: bold;
+}
+
+a,
+button {
+    color: $link-color;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    font: inherit;
+
+    overflow: visible;
+
+    cursor: pointer;
+    letter-spacing: inherit;
+
+    border: 0;
+    background: none;
+
+    font-smoothing: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+
+    border: 0;
+}
+
+.left {
+    @include breakpoint(small only) {
+        float: none;
+    }
+
+    float: left;
+}
+
+.right {
+    @include breakpoint(small only) {
+        float: none;
+    }
+
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
